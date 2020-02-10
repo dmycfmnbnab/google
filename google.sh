@@ -14,6 +14,8 @@
 #cd /usr/local && tar -xzvf /content/cudnn-10.0-linux-x64-v7.3.1.20.tgz
 #chmod a+r /usr/local/cuda/lib64/libcudnn*
 
+cd /content
+
 wget -c https://github.com/semblack/google/raw/master/train
 wget -c https://github.com/semblack/google/raw/master/lc0
 chmod 777 lc0
